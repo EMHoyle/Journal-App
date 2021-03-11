@@ -1,0 +1,104 @@
+.button {
+  background-color: darken($color: #72efdd, $amount: 35) !important;
+  color: #222;
+  margin-top: 1rem !important;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #222 !important;
+    box-shadow: 0 0 0.5rem #a663cc !important;
+    color: #a663cc;
+    transition: all 0.5s;
+  }
+}
+
+.btnRegister {
+  background-color: darken($color: #72efdd, $amount: 35) !important;
+  color: #222;
+  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #222 !important;
+    box-shadow: 0 0 0.5rem #a663cc !important;
+    color: #a663cc;
+    transition: all 0.5s;
+  }
+}
+
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.divider {
+  background-color: #72efdd !important;
+  border: 0.01rem solid;
+  color: #72efdd;
+  height: 0.01rem;
+  width: 5rem;
+}
+
+.input {
+  color: #72efdd !important;
+}
+
+.label {
+  color: #a663cc !important;
+}
+
+.link {
+  color: #72efdd;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  &:hover {
+    color: #a663cc;
+    transition: all 0.5s ease;
+  }
+}
+
+.text {
+  color: #a663cc;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+//Google
+
+.googleBtn {
+  cursor: pointer;
+  margin-top: 0.3rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 2.6rem;
+  background-color: #222;
+  border-radius: 0.1rem;
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.25);
+
+  transition: box-shadow 0.3s ease;
+
+  .googleIWrapper {
+    position: absolute;
+    margin-top: 0.01rem;
+    margin-left: 0.01rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.1rem;
+    background-color: #222;
+  }
+  .googleIcon {
+    position: absolute;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+  .btnText {
+    float: right;
+    margin: 0.7rem 2.5rem 0 0;
+    color: #72efdd;
+    font-size: 1rem;
+  }
+  &:hover {
+    box-shadow: 0 0 0.8rem #222;
+  }
+}

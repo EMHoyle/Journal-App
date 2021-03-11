@@ -1,0 +1,53 @@
+.entry {
+  background-color: white;
+  border-radius: 0.25rem;
+  color: #222;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: 0.4rem;
+  overflow: hidden;
+  width: 17.5rem;
+  transition: all 0.4s;
+  &:hover {
+    border: 0.1rem solid #222;
+    box-shadow: 0 0 0.8rem #72efdd;
+    transform: scaleX(1.02);
+    transition: all 0.2s;
+  }
+}
+
+.picture {
+  height: auto;
+  width: 4rem;
+}
+
+.body {
+  padding: 0.6rem;
+}
+
+.title {
+  font-size: 0.9rem !important;
+  font-weight: bold !important;
+}
+
+.content {
+  font-size: 0.6rem !important;
+}
+
+.dateBox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.3rem;
+}
+
+.date {
+  font-size: 1rem;
+  font-weight: bold !important;
+}
+
+.day {
+  font-size: 0.7rem !important;
+}

@@ -1,0 +1,58 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: #a663cc !important;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 7px 10px 7px 10px;
+  text-transform: capitalize !important;
+  transition: color 0.3s ease !important;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: darken($color: #a663cc, $amount: 10) !important;
+  }
+}
+
+.container {
+  color: #72efdd;
+  display: flex;
+  margin-left: 0.8rem !important;
+  margin-top: 0.4rem !important;
+}
+
+.entryContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.icon {
+  color: darken($color: #72efdd, $amount: 25);
+  cursor: pointer;
+  font-size: 5rem !important;
+  transition: all 0.5s !important;
+  &:hover {
+    color: darken($color: #72efdd, $amount: 0);
+  }
+}
+
+.mainContainer {
+  margin-left: 300px !important;
+}
+
+.title {
+  color: #a663cc;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
