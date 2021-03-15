@@ -1,6 +1,6 @@
 {
   "name": "journal-app",
-  "homepage": "https://emhoyle.github.io/auth/login",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
